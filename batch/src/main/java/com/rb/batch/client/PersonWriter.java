@@ -12,8 +12,6 @@ import com.rb.batch.core.writer.BatchWriter;
 import java.util.Collection;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */
@@ -34,7 +32,7 @@ public class PersonWriter implements BatchWriter<Person> {
     @Override
     public boolean writeData(Collection<Person> data) {
 
-        personRepository.save(data, 5000);
+        personRepository.save(data, 10000);
         return true;
     }
 

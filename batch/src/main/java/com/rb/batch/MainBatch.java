@@ -10,8 +10,6 @@ import com.rb.batch.scheduler.QuartzSequentialJob;
 import org.quartz.SchedulerException;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */

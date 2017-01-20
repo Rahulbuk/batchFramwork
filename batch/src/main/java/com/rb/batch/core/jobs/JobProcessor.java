@@ -10,9 +10,12 @@ import com.rb.batch.core.reader.Reader;
 import com.rb.batch.core.writer.BatchWriter;
 import com.rb.batch.core.writer.IWriter;
 
+
 /**
- * Created by rahul.b.uk on 1/20/17.
+ * @author bhandwalkarr
+ * @version $Id: $Id
  */
+
 abstract class JobProcessor<T,O>  {
 
    protected Reader<T> reader;

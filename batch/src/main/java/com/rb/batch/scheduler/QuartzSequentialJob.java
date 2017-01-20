@@ -19,15 +19,13 @@ import org.quartz.JobExecutionException;
 import javax.persistence.EntityManager;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */
 public class QuartzSequentialJob implements Job {
 
 
-    /** {@inheritDoc} */
+
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
 

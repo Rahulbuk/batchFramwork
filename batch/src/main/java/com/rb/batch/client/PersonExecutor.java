@@ -11,8 +11,6 @@ import com.rb.batch.model.Person;
 import com.rb.batch.core.validator.ValidateItem;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */

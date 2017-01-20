@@ -5,8 +5,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */

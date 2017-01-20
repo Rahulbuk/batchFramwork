@@ -9,8 +9,6 @@ import com.rb.batch.core.executor.ItemProcessor;
 import com.rb.batch.model.Person;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */

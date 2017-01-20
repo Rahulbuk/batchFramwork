@@ -6,8 +6,6 @@ import org.quartz.impl.StdSchedulerFactory;
 import java.text.ParseException;
 
 /**
- * Created by rahul.b.uk on 1/20/17.
- *
  * @author bhandwalkarr
  * @version $Id: $Id
  */
@@ -34,8 +32,8 @@ public class JobScheduler {
         if (cronSchedule == null || "".equals(cronSchedule)) {
             trigger = TriggerBuilder.newTrigger()
                     .withIdentity(job.getClass().getName())
-                    .withSchedule(SimpleScheduleBuilder.simpleSchedule().withRepeatCount(10)
-                            .withIntervalInMinutes(5))
+                    .withSchedule(SimpleScheduleBuilder.simpleSchedule().repeatForever()
+                            .withIntervalInSeconds(100))
                     .withPriority(1)
                     .build();
 
